@@ -1,0 +1,130 @@
+
+
+h1 {
+	font-size: 175% ;
+	font-family: calibri;
+	color: brown;
+	text-align: center;
+	margin:50px;
+}
+
+h2 {
+	border: 1px solid red;
+	font-size: 125%;
+	font-family: cambria;
+	color: blue;
+	background-color: #FFEDFF;
+	text-align: center;
+	margin-bottom: 15px;
+	width: 250px;
+	float: right;
+	border: 1px solid red;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #EDFFFC;
+}
+
+p {
+	width: 100%;
+	padding: 10px;
+	font-family: calibri;
+	clear: right;
+	color: brown;
+	font-weight: bold;
+}
+
+.row {
+	width: 100%
+}
+
+	.c1 {
+		background-color: #FFFDED;
+		margin:15px 0px 0px 15px;
+		border: 3px solid purple;
+		width: 95%;
+		float: left;
+		padding:0px 0px 20px 20px;
+	}
+	.c2 {
+		background-color: #FFFDED;
+		margin:15px 0px 0px 15px;
+		border: 3px solid purple;
+		width: 95%;
+		float: left;
+		padding:0px 0px 20px 20px;
+	}
+	.c3 {
+		background-color: #FFFDED;
+		margin:15px 0px 0px 15px;
+		border: 3px solid purple;
+		width: 95%;
+		float: left;
+		padding:0px 0px 20px 20px;
+	}
+
+@media (min-width: 992px) {
+	.c1 {
+		background-color: #FFFDED;
+		margin:15px 0px 0px 15px;
+		border: 3px solid brown;
+		width: 31%;
+		float: left;
+		padding:0px 0px 20px 20px;
+	}
+	.c2 {
+		background-color: #FFFDED;
+		margin:15px 0px 0px 15px;
+		border: 3px solid brown;
+		width: 31%;
+		float: left;
+		padding:0px 0px 20px 20px;
+	}
+	.c3 {
+		background-color: #FFFDED;
+		margin:15px 0px 0px 15px;
+		border: 3px solid brown;
+		width: 31%;
+		float: left;
+		padding:0px 0px 20px 20px;
+	}
+	body {
+  background-color: #F6FFED;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.c1 {
+		background-color: #FFFDED;
+		margin:15px 0px 0px 15px;
+		border: 3px solid green;
+		width: 46%;
+		float: left;
+		padding:0px 0px 20px 20px;
+	}
+	.c2 {
+		background-color: #FFFDED;
+		margin:15px 0px 0px 15px;
+		border: 3px solid green;
+		width: 46%;
+		float: left;
+		padding:0px 0px 20px 20px;
+	}
+	.c3 {
+		background-color: #FFFDED;
+		margin:15px 0px 0px 15px;
+		border: 3px solid green;
+		width: 94%;
+		float: left;
+		padding:0px 0px 20px 20px;
+	}
+	body {
+  background-color: #FFEDED;
+}
+}
