@@ -38,13 +38,14 @@ p {
 	clear: right;
 	color: brown;
 	font-weight: bold;
+	font-size:default;
 }
 
 .row {
 	width: 100%
 }
 
-	.c1 {
+	.c1 {font-size:default;
 		background-color: #FFFDED;
 		margin:15px 0px 0px 15px;
 		border: 3px solid purple;
@@ -52,7 +53,7 @@ p {
 		float: left;
 		padding:0px 0px 20px 20px;
 	}
-	.c2 {
+	.c2 {font-size:default;
 		background-color: #FFFDED;
 		margin:15px 0px 0px 15px;
 		border: 3px solid purple;
@@ -60,7 +61,7 @@ p {
 		float: left;
 		padding:0px 0px 20px 20px;
 	}
-	.c3 {
+	.c3 {font-size:default;
 		background-color: #FFFDED;
 		margin:15px 0px 0px 15px;
 		border: 3px solid purple;
@@ -70,7 +71,7 @@ p {
 	}
 
 @media (min-width: 992px) {
-	.c1 {
+	.c1 {font-size:default;
 		background-color: #FFFDED;
 		margin:15px 0px 0px 15px;
 		border: 3px solid brown;
@@ -78,7 +79,7 @@ p {
 		float: left;
 		padding:0px 0px 20px 20px;
 	}
-	.c2 {
+	.c2 {font-size:default;
 		background-color: #FFFDED;
 		margin:15px 0px 0px 15px;
 		border: 3px solid brown;
@@ -86,7 +87,7 @@ p {
 		float: left;
 		padding:0px 0px 20px 20px;
 	}
-	.c3 {
+	.c3 {font-size:default;
 		background-color: #FFFDED;
 		margin:15px 0px 0px 15px;
 		border: 3px solid brown;
@@ -100,7 +101,7 @@ p {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-	.c1 {
+	.c1 {font-size:default;
 		background-color: #FFFDED;
 		margin:15px 0px 0px 15px;
 		border: 3px solid green;
@@ -108,7 +109,7 @@ p {
 		float: left;
 		padding:0px 0px 20px 20px;
 	}
-	.c2 {
+	.c2 {font-size:default;
 		background-color: #FFFDED;
 		margin:15px 0px 0px 15px;
 		border: 3px solid green;
@@ -116,7 +117,7 @@ p {
 		float: left;
 		padding:0px 0px 20px 20px;
 	}
-	.c3 {
+	.c3 {font-size:default;
 		background-color: #FFFDED;
 		margin:15px 0px 0px 15px;
 		border: 3px solid green;
